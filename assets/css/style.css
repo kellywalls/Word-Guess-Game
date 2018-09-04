@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+#mainImg {
+    width: 400px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    border-bottom: 30px;
+}
+
+.container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+    
+}
+
+p {
+    color: white;
+    margin-bottom: 8px;
+}
+
+.columns {
+    border: 3px dashed;
+    border-color: #eee;
+
+}
+
+.gameBoard {
+    margin-top: 30px;
+}
+
+#directions-text {
+    font-size: 18px;
+    padding: 10px;
+}
+
+#computerword-text {
+    letter-spacing: 5px;
+}
+
+#winnerImg {
+    display: block;
+    width: 300px;
+}

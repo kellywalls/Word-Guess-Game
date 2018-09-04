@@ -5,20 +5,56 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Hangman Game</title>
 
-        <!-- link to rest.css and style.css -->
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
+        
         <!-- link to Bootstrap CDN -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-        <!-- Link to Javascript file. -->
-        <script type="text/javascript" src="assets/javascript/game.js"></script>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
         
+                
     </head>
 
     <body>
+
+            <div class="container">
+                <img id="mainImg" src="assets/images/header.jpg" alt="">
+
+                    <div class="row gameBoard">
+                      <div class="col-md-6 columns">
+                          <img id="winnerImg">
+                      </div>
+                      <div class="col-md-6 columns">
+                            <p id="directions-text"></p>
+                            <p class="label">Current Word</p>
+                            <p id="computerword-text"> </p>
+                            <p class="label">Letters Guessed</p>
+                            <p id="lettersguessed-text"></p>
+                            <p class="label">Wins</p>
+                            <p id="wins-text"></p>
+                            <P class="label">Remaining Guesses</p>
+                            <p id="guessesremaining-text"></p>
+                      </div>
+                    </div>
+                  </div>
+
+        
+
+        <!-- <div id="game">
+            <p id="directions-text"></p>
+            <p class="label">Current Word</p>
+            <p id="computerword-text"> </p>
+            <p class="label">Letters Guessed</p>
+            <p id="lettersguessed-text"></p>
+            <p class="label">Wins</p>
+            <p id="wins-text"></p>
+            <P class="label">Remaining Guesses</p>
+            <p id="guessesremaining-text"></p>
+        </div> -->
+
+        <!-- Link to Javascript file. -->
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+
 
 
         
