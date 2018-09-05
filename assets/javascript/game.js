@@ -5,7 +5,16 @@
     "Metallica", 
     "Eagles", 
     "Aerosmith", 
-    "Nirvana"
+    "Nirvana",
+    "U2",
+    "Queen",
+    "Genesis",
+    "Cream",
+    "Journey",
+    "Ramones",
+    "Kiss",
+    "Boston",
+    "Santana"
 ];
 
 // create variables to hold game results

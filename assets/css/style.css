@@ -48,6 +48,10 @@ p {
     letter-spacing: 5px;
 }
 
+#lettersguessed-text {
+    letter-spacing: 5px;
+}
+
 #winnerImg {
     display: block;
     width: 300px;
